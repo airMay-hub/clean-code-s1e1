@@ -1,5 +1,8 @@
 /* Basic Style */
 body {
+  margin: 0;
+}
+.content {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
@@ -66,7 +69,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3 {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -96,10 +99,10 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input #new-task {
   width: 318px;
 }
-p > button:hover {
+.add-task-box__btn:hover {
   color: #0fc57c;
 }
 
